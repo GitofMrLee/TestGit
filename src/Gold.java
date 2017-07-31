@@ -6,4 +6,5 @@
  */
 
 public class Gold {
+    private String name;
 }

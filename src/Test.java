@@ -8,5 +8,15 @@
 public class Test {
     public static void main(String[] args) {
         System.out.println("git commit,commit and push");
+
+        String str = "abc de    fgh";
+        System.out.println(str);
+        String strnew = str.replaceAll("\\s{1,}"," ");
+
+        StringBuffer sball=new StringBuffer(strnew);
+
+        sball.reverse();
+        System.out.println(sball.toString());
+
     }
 }

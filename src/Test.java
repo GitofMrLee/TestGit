@@ -11,7 +11,7 @@ public class Test {
 
         String str = "abc de    fgh";
         System.out.println(str);
-        String strnew = str.replaceAll("\\s{1,}"," ");
+        String strnew = str.replaceAll("\\s+"," ");
 
         StringBuffer sball=new StringBuffer(strnew);
 
